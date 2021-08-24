@@ -1,0 +1,51 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\Qu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add antd babel-plugin-import --save
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;D:\nodejs\;D:\nodejs\node_global;\;C:\Program Files (x86)\Yozosoft\Yozo_Office\Lib\xuggler\bin;C:\Users\Qu\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\Qu\AppData\Roaming\npm;D:\nodejs\node_global;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Qu\AppData\Local\Yarn\Cache\v6\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity\node_modules\ms\license.md' -> 'D:\学习\dva-test\node_modules\@babel\core\node_modules\ms\license.md'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
