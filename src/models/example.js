@@ -15,7 +15,7 @@ export default {
     // 通过 dispatch 函数，可以通过 type 属性指定对应的 actions 类型，而这个类型名在 reducers（effects）会一一对应，从而知道该去调用哪一个 reducers（effects）。
     // 通常第一次的还没有数据的时候可以在组件的生命周期内部发起dispatch，或者监听路由（subscriptions）当时这个路由的时候发起dispatch 从而更新model
     setup({ dispatch, history }) {  // eslint-disable-line
-      console.log(dispatch, history);
+      // console.log(dispatch, history);
     },
   },
 
